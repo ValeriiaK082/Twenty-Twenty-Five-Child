@@ -26,7 +26,7 @@ Gulp is used to manage front-end assets, including:
 
 ```bash
 gulp watch
-
+```
 
 ### FAQ Accordion Block – Build & Development
 
@@ -39,6 +39,7 @@ Gutenberg blocks in this theme are compiled using `@wordpress/scripts` and a blo
   "build": "wp-scripts build blocks/$BLOCK/index.js --output-path=blocks/$BLOCK/build",
   "start": "wp-scripts start blocks/$BLOCK/index.js --output-path=blocks/$BLOCK/build"
 }
+```
 
 ## Example: Start FAQ Accordion Block
 
@@ -46,3 +47,4 @@ To start development mode for the FAQ Accordion block, run:
 
 ```bash
 BLOCK=faq-accordion npm run start
+```
