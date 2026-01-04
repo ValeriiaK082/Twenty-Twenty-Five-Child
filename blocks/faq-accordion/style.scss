@@ -1,0 +1,47 @@
+.faq-accordion-wrapper {
+	max-width: 650px;
+	margin: auto;
+	width: 100%;
+
+	.faq-heading{
+		text-align: center;
+	}
+
+	.faq-accordion {
+		.faq-question {
+			position: relative;
+			width: 100%;
+			text-align: left;
+			padding: 10px 40px 10px 10px;
+			cursor: pointer;
+			font-weight: bold;
+
+			.faq-icon {
+				position: absolute;
+				right: 1rem;
+				top: 50%;
+				transform: translateY(-50%);
+				width: 1rem;
+				height: 1rem;
+				background-size: contain;
+				background-repeat: no-repeat;
+				background-image: url('icons/plus.svg');
+			}
+
+			&.active{
+				.faq-icon{
+					background-image: url('icons/minus.svg');
+				}
+			}
+		}
+
+		.faq-answer {
+			display: none;
+			padding: 0 10px 10px;
+		}
+
+		.faq-item.active .faq-answer {
+			display: block;
+		}
+	}
+}

@@ -1,0 +1,2 @@
+jQuery(document).ready(function(t){t("#other-books").length&&(t("#other-books").html('<div class="col-12 text-center my-4"><div class="spinner-border text-primary" role="status"><span class="visually-hidden">Loading...</span></div></div>'),t.ajax({url:book_ajax_obj.ajax_url,type:"POST",data:{action:"load_other_books",current_book:book_ajax_obj.current_book},success:function(o){t("#other-books").html(o.data)},error:function(){t("#other-books").html('<p class="text-danger">Failed to load other books.</p>')}}))});
+//# sourceMappingURL=scripts.js.map

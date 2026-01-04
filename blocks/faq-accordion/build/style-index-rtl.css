@@ -1,0 +1,40 @@
+/*!********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./blocks/faq-accordion/style.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************/
+.faq-accordion-wrapper {
+  max-width: 650px;
+  margin: auto;
+  width: 100%;
+}
+.faq-accordion-wrapper .faq-heading {
+  text-align: center;
+}
+.faq-accordion-wrapper .faq-accordion .faq-question {
+  position: relative;
+  width: 100%;
+  text-align: right;
+  padding: 10px 10px 10px 40px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.faq-accordion-wrapper .faq-accordion .faq-question .faq-icon {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1rem;
+  height: 1rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IS0tIFVwbG9hZGVkIHRvOiBTVkcgUmVwbywgd3d3LnN2Z3JlcG8uY29tLCBHZW5lcmF0b3I6IFNWRyBSZXBvIE1peGVyIFRvb2xzIC0tPgo8c3ZnIHdpZHRoPSI4MDBweCIgaGVpZ2h0PSI4MDBweCIgdmlld0JveD0iMCAwIDMyIDMyIiBpZD0iaS1wbHVzIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudGNvbG9yIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iMiI+Cgk8cGF0aCBkPSJNMTYgMiBMMTYgMzAgTTIgMTYgTDMwIDE2IiAvPgo8L3N2Zz4K);
+}
+.faq-accordion-wrapper .faq-accordion .faq-question.active .faq-icon {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IS0tIFVwbG9hZGVkIHRvOiBTVkcgUmVwbywgd3d3LnN2Z3JlcG8uY29tLCBHZW5lcmF0b3I6IFNWRyBSZXBvIE1peGVyIFRvb2xzIC0tPgo8c3ZnIGZpbGw9IiMwMDAwMDAiIHdpZHRoPSI4MDBweCIgaGVpZ2h0PSI4MDBweCIgdmlld0JveD0iMCAwIDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGlkPSJtaW51cyIgY2xhc3M9Imljb24gZ2x5cGgiPjxwYXRoIGQ9Ik0xOSwxM0g1YTEsMSwwLDAsMSwwLTJIMTlhMSwxLDAsMCwxLDAsMloiPjwvcGF0aD48L3N2Zz4K);
+}
+.faq-accordion-wrapper .faq-accordion .faq-answer {
+  display: none;
+  padding: 0 10px 10px;
+}
+.faq-accordion-wrapper .faq-accordion .faq-item.active .faq-answer {
+  display: block;
+}

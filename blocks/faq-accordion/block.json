@@ -1,0 +1,22 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "mytheme/faq-accordion",
+	"title": "FAQ Accordion",
+	"category": "widgets",
+	"icon": "editor-help",
+	"description": "A block to display FAQ items in accordion style.",
+	"supports": {
+		"html": false
+	},
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css",
+	"viewScript": "file:./frontend.js",
+	"attributes": {
+		"heading": {
+			"type": "string",
+			"default": "FAQ"
+		}
+	}
+}
